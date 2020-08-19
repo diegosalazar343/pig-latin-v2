@@ -1,7 +1,11 @@
 $(document).ready(function() {
 
-  $("form#").submit(function(event) {
+  $("form#pigTranslation").submit(function(event) {
     event.preventDefault();
 
+    let pigOutput = $(pigInput).val();
+    console.log(pigOutput);
+
+    function pigLatin
   });
 });
